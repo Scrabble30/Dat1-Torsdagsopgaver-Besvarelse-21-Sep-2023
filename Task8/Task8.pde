@@ -9,7 +9,7 @@ void setup() {
 int[] sortArray(int[] array) {
   boolean swapped = true;
 
-  while ( swapped ) {
+  while (swapped) {
     swapped = false;
 
     for (int i = 0; i < array.length-1; i++) {
